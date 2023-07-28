@@ -1,5 +1,5 @@
 import "./styles.css";
-import "../index.css";
+import "./index.css";
 import Welcome from "./components/Welcome";
 import Homepage from "./components/Homepage";
 
