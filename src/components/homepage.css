@@ -1,0 +1,105 @@
+.homepage {
+  background: #bfdbe3;
+  height: 100vh;
+  width: 100vh;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-sect {
+  display: flex;
+  flex-direction: horizontal;
+  width: 100vh;
+  height: 10vh;
+  justify-content: center;
+}
+
+.add-button {
+  margin-left: 15px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100vh;
+  align-items: center;
+  overflow: auto;
+  padding: 5px;
+}
+
+.nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+button {
+  color: white;
+  text-align: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 650px;
+  background: white;
+  margin-top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.todo:hover * {
+  color: #95b6c0;
+}
+
+.edit-button,
+.delete-button,
+.done-button,
+.revert-button {
+  margin-left: 10px;
+  padding-top: 15px;
+  color: white;
+}
+
+.delete-button:hover {
+  color: #95b6c0;
+  transform: scale(1.5);
+}
+
+.edit-button:hover {
+  color: #95b6c0;
+  transform: scale(1.5);
+}
+
+.done-button:hover {
+  color: #95b6c0;
+  transform: scale(1.5);
+}
+
+.revert-button:hover {
+  color: #95b6c0;
+  transform: scale(1.5);
+}
+.todo-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.unfinished-todo-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: grey;
+}
+
+.finished-todo-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  text-decoration: line-through;
+  color: grey;
+}
